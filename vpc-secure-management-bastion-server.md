@@ -112,7 +112,7 @@ Let's create a security group and configure inbound rules to your bastion VSI.
 With the subnet and security group already in place, next, create the bastion virtual server instance.
 
 1. Under **Subnets** on the left pane, select **vpc-secure-bastion-subnet**.
-2. Click on **Attached resources** and under Attached instances, click **Create** to provision a New virtual server called **vpc-secure-bastion-vsi** under the same resource group as your subnet.
+2. Click on **Attached resources** and under **Attached instances**, click **Create** to provision a New virtual server called **vpc-secure-bastion-vsi** under the same resource group as your subnet.
 3. Select a **Location** and make sure to later use the same location again.
 4. Select **Public** type of virtual server.
 5. Select **Ubuntu Linux** as your Operating System. You can pick any version of the image.
